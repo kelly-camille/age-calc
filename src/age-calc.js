@@ -4,8 +4,9 @@ export class Planet {
     this.planetYear = planetYear;
     this.personAge = personAge;
   }
-  calculatePlanetAge() {
+  ageConversion() {
   this.planetAge = this.planetYear * this.personAge.toFixed(2);
   return this.planetAge;
   }
+
 }

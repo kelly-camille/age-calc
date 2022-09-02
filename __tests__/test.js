@@ -16,7 +16,9 @@ test('should make a planet class with x planet name x planet year and y earth ag
 
 
 test('should multiply planet-Year and person-age to calculate planet-age ', () => {
-  expect(murcury.calculatePlanetAge()).toEqual(6);
+  expect(murcury.ageConversion()).toEqual(6);
 });
 
+test('should return the number of years you have lived past the given life expectancy on murcury')
+  expect(murcury.lifeExpectancyConversion()).toEqual(13.2)
 });

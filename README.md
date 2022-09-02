@@ -29,8 +29,7 @@
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* The calculation of age on murcury is sometimes off by a very small fraction
 
 ## License
 [GNU GPL3.0](https://choosealicense.com/licenses/gpl-3.0/)
