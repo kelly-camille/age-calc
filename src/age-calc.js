@@ -1,7 +1,11 @@
 export class Planet {
-  constructor(name, planetYear, earthYear) {
+  constructor(name, planetYear, personAge) {
     this.name = name
     this.planetYear = planetYear;
-    this.earthYear = earthYear;
+    this.personAge = personAge;
   }
-};
+  calculatePlanetAge() {
+  this.planetAge = this.planetYear * this.personAge;
+  return this.planetAge;
+  }
+}
