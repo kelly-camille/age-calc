@@ -1,5 +1,7 @@
 export class Planet {
-  constructor(year) {
-  this.year = year;
+  constructor(name, planetYear, earthYear) {
+    this.name = name
+    this.planetYear = planetYear;
+    this.earthYear = earthYear;
   }
 };
