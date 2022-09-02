@@ -4,8 +4,8 @@
 describe('Planet', () => {
   let murcury;
   beforeEach(() => {
-    murcury = new Planet
-test("should make a planet class with x year is y earth years", () => {
+  });
+test('should make a planet class with x year is y earth years', () => {
+expect(murcury.year).toEqual(.24)
 });
-expect()
 });
