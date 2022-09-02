@@ -1,8 +1,9 @@
 export class Planet {
-  constructor(name, planetYear, personAge,) {
+  constructor(name, planetYear, personAge, lifeExpect) {
     this.name = name
     this.planetYear = planetYear;
     this.personAge = personAge;
+    this.lifeExpect = lifeExpect;
     // this.earthLifeExpectancy = earthLifeExpectancy;
   }
   ageConversion() {
@@ -10,6 +11,10 @@ export class Planet {
   return this.planetAge;
   }
 
+  lifeConversion(){
+    this.lifeExpectM = this.lifeExpect * this.planetYear
+    return this.lifeExpectM
+  }
 
 
 }
