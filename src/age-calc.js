@@ -10,13 +10,6 @@ export class Planet {
   return this.planetAge;
   }
 
-export class Earth
 
-  // lifeExpectancyConversion() {
-  //   this.planetExpectancy = this.earthLifeExpectancy * this.planetYear;
-  //   return this.planetExpectancy; 
-  // }
+
 }
-
-// if murcury.age > 19.2
-//   yearsPastExpected = murcury.age - lifeExpectancy

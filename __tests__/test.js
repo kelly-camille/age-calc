@@ -19,7 +19,7 @@ test('should multiply planet-Year and person-age to calculate planet-age ', () =
   expect(murcury.ageConversion()).toEqual(6);
 });
 
-// test('should return the number of years you have lived past the given life expectancy on murcury', () => {
-//   expect(murcury.lifeExpectancyConversion()).toEqual(19.2)
-// });
+test('should return the number of years you have lived past the given life expectancy on murcury', () => {
+  expect(murcury.lifeExpectancyConversion()).toEqual(19.2)
+});
 });
