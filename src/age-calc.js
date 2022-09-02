@@ -16,5 +16,8 @@ export class Planet {
     return this.lifeExpectM
   }
 
-
+  yearsP(){
+    this.yearsPassedM = this.planetAge - this.lifeExpectM;
+    return this.yearsPassedM;
+  }
 }
