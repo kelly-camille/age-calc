@@ -5,7 +5,7 @@ export class Planet {
     this.personAge = personAge;
   }
   calculatePlanetAge() {
-  this.planetAge = this.planetYear * this.personAge;
+  this.planetAge = this.planetYear * this.personAge.toFixed(2);
   return this.planetAge;
   }
 }
