@@ -28,5 +28,8 @@ test('should calculate how many years you have left on any planet', () => {
   expect(mercury.yearsLeft()).toEqual(9.6);
 });
 
+test('should calculate how many years passed the life expectancy', () => {
+  expect(mercury.yearsPassed()).toEqual();
+});
 });
 
