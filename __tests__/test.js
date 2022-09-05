@@ -3,29 +3,30 @@ import{Planet} from './../src/age-calc';
 
  
 describe('Planet', () => {
-  let murcury;
+  let mercury;
   beforeEach(() => {
-   murcury = new Planet("Murcury", .24, 100, 80)
+   mercury = new Planet("Murcury", .24, 40, 80);
   });
 
 test('should make a planet class with x planet name x planet year and y earth age', () => {
-  expect(murcury.name).toEqual("Murcury");
-  expect(murcury.planetYear).toEqual(0.24);
-  expect(murcury.personAge).toEqual(100);
+  expect(mercury.name).toEqual("Murcury");
+  expect(mercury.planetYear).toEqual(0.24);
+  expect(mercury.personAge).toEqual(40);
+  expect(mercury.endOfLife).toEqual(80);
 });
 
 // planetAge
 test('should multiply planet-Year and person-age to calculate planet-age ', () => {
-  expect(murcury.ageConversion()).toEqual(24);
+  expect(mercury.ageConversion()).toEqual(9.6);
 });
 // lifeExpectM
 test('should return the life expectancy in murcury years', () => {
-  expect(murcury.lifeConversion()).toEqual(19.2);
+  expect(mercury.lifeConversion()).toEqual(19.2);
 });
 // yearsPassedM
-
-
-test('should subtract murcury years from life expectancy to get years passed', () => {
-  expect(murcury.yearsP()).toEqual(4.8);
+test('should calculate how many years you have left on any planet', () => {
+  expect(mercury.yearsLeft()).toEqual(9.6);
 });
+
 });
+

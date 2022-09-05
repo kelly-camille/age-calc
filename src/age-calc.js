@@ -1,23 +1,46 @@
 export class Planet {
-  constructor(name, planetYear, personAge, lifeExpect) {
-    this.name = name
+  constructor(name, planetYear, personAge, endOfLife ) {
+    this.name = name;
     this.planetYear = planetYear;
     this.personAge = personAge;
-    this.lifeExpect = lifeExpect;
+    this.endOfLife = endOfLife;
+    
+
     // this.earthLifeExpectancy = earthLifeExpectancy;
   }
   ageConversion() {
-  this.planetAge = this.planetYear * this.personAge;
-  return this.planetAge;
+    let planetAge = this.planetYear * this.personAge;
+    return planetAge;
   }
 
-  lifeConversion(){
-    this.lifeExpectM = this.lifeExpect * this.planetYear
-    return this.lifeExpectM
+  lifeConversion() {
+    let lifeExpectM = this.endOfLife * this.planetYear;
+    return lifeExpectM;
   }
 
-  yearsP(){
-    yearsPassedM = planetAge - lifeExpectM;
-    return yearsPassedM;
+  yearsLeft() {
+    let earthYearsLeft = this.endOfLife - this.personAge;
+    let mercuryYearsLeft = earthYearsLeft * this.planetYear;
+    return mercuryYearsLeft;
   }
+
+
 }
+  // yearsP() {
+  //   this.yearsPassed = this.planetAge - this.lifeExpectM;
+  //   return this.yearsPassed
+  // }
+
+// attackRoll() {
+//   let damage = rollDice()
+//   let finalDamage = damage + this.attack;
+//   return finalDamage
+// }
+// defend(attackDamage) {
+//   let finalDamage = attackDamage - this.defense;
+//   return finalDamage
+// }
+// hpLoss(finalDamage) {
+//   this.hp -= finalDamage
+//   return this.hp;
+// }
