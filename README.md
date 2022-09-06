@@ -6,12 +6,13 @@
 
 ## Technologies Used
 
-* _HTML_
-* _Javascript_
-* _CSS_
-* _Add_
+* HTML
+* Javascript
+* Jest
+* Babel
 
 ## Description
+* this program takes a person's age in years and returns their age if they were on a specific planet. It also returns the estimated number of years until the estimated life expectancy or the amount of years that have passed the average life expectancy. 
 
 ## Setup/Installation Requirements
 * Clone this repository to your desktop by using the URL.

@@ -23,7 +23,7 @@ test('should multiply planet-Year and person-age to calculate planet-age ', () =
 test('should return the life expectancy in murcury years', () => {
   expect(mercury.lifeConversion()).toEqual(19.2);
 });
-
+// if age is less than life expectancy
 test('should calculate how many years you have left on any planet', () => {
   expect(mercury.yearsCalc()).toEqual(9.6);
 });
@@ -50,7 +50,7 @@ test('should multiply planet-Year and person-age to calculate planet-age ', () =
 test('should return the life expectancy in murcury years', () => {
   expect(mercury.lifeConversion()).toEqual(19.2);
 });
-
+// if age is greater than life expectancy
 test('should calculate how many years you have passed', () => {
   expect(mercury.yearsCalc()).toEqual(4.8);
 });
