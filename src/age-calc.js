@@ -4,10 +4,8 @@ export class Planet {
     this.planetYear = planetYear;
     this.personAge = personAge;
     this.endOfLife = endOfLife;
-    
-
-    // this.earthLifeExpectancy = earthLifeExpectancy;
   }
+
   ageConversion() {
     let planetAge = this.planetYear * this.personAge;
     return planetAge;
@@ -17,6 +15,7 @@ export class Planet {
     let lifeExpectM = this.endOfLife * this.planetYear;
     return lifeExpectM;
   }
+
   yearsCalc() {
     let earthYearsLeft = this.endOfLife - this.personAge;
     let mercuryYearsLeft = earthYearsLeft * this.planetYear;
@@ -26,6 +25,6 @@ export class Planet {
     return mercuryYearsPassed;
     } else {
     return mercuryYearsLeft;
-  }
+    }
   }
 }
