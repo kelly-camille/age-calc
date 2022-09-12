@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-  <title>New document</title>
+  <title>Galactic Age Calculator</title>
 </head>
+
 <body>
-  <h1>New Document</h1>
+  <h1>Galactic Age Calculator</h1>
+  <form id="m">
+    <h2>Mercury</h2>
+    <label for="earth-age">What is your age?</label>
+    <input id="earth-age" type="number">
+    <br>
+    <button id="button" type="submit" class="btn btn-dark">Submit</button>
+  </form>
+  <p id="age"> </p>
+  <p>Your current age on Mercury is <span id="mercury_age"></span>
+  <p>
+  <p id="remaining">Years left until death on Mercury: <span id="yp-calc"></span></p>
+  <p id="passed">Number of years you've surpassed the life expectancy on Mercury:<span id="yl-calc"></span></p>
+
+  <form id="v">
+    <h2>Venus</h2>
+    <label for="earth-age2">What is your age?</label>
+    <input id="earth-age2" type="number">
+    <br>
+    <button id="button" type="submit" class="btn btn-dark">Submit</button>
+  </form>
+  <p id="age2"> </p>
+  <p>Your current age on Venus is <span id="venus_age"></span>
+  <p>
+  <p id="v_remaining">Years left until death on Venus: <span id="v_p-calc"></span></p>
+  <p id="v_passed">Number of years you've surpassed the life expectancy on Venus:<span id="v_l-calc"></span></p>
+
+  <form id="mars">
+    <h2>Mars</h2>
+    <label for="earth-age3">What is your age?</label>
+    <input id="earth-age3" type="number">
+    <br>
+    <button id="button" type="submit" class="btn btn-dark">Submit</button>
+  </form>
+  <p id="age3"> </p>
+  <p>Your current age on Mars is <span id="mars_age"></span>
+  <p>
+  <p id="mars_remaining">Years left until death on Mars: <span id="mars_p-calc"></span></p>
+  <p id="mars_passed">Number of years you've surpassed the life expectancy on Mars:<span id="mars_l-calc"></span></p>
+
+  <form id="j">
+    <h2>Jupiter</h2>
+    <label for="earth-age4">What is your age?</label>
+    <input id="earth-age4" type="number">
+    <br>
+    <button id="button" type="submit" class="btn btn-dark">Submit</button>
+  </form>
+  <p id="age4"> </p>
+  <p>Your current age on Jupiter is <span id="j_age"></span>
+  <p>
+  <p id="j_remaining">Years left until death on Jupiter: <span id="j_p-calc"></span></p>
+  <p id="j_passed">Number of years you've surpassed the life expectancy on Jupiter:<span id="j_l-calc"></span></p>
+
   <script type="text/javascript" src="bundle.js"></script>
 </body>
+
 </html>

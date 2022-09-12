@@ -10,6 +10,8 @@
 * Javascript
 * Jest
 * Babel
+* Webpack
+* Node
 
 ## Description
 * this program takes a person's age in years and returns their age if they were on a specific planet. It also returns the estimated number of years until the estimated life expectancy or the amount of years that have passed the average life expectancy. 
@@ -36,4 +38,4 @@
 [GNU GPL3.0](https://choosealicense.com/licenses/gpl-3.0/)
 
 
-Copyright (c) _2022_ _Tiberius Lockett_
+Copyright (c) _2022_ _Kelly Bruce_
